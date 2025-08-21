@@ -17,17 +17,18 @@
   
 ## 📝 Overview
 
-This repository provides a platform-independent driver for the SSD1306 OLED display controller, tailored for the ESP32 using ESP-IDF v5.0.6.
+This repository provides a platform-independent driver for the SSD1306 OLED display controller available in the SSD1306_OLED_common/
+folder, tailored for ESP32 using ESP-IDF.
 The implementation focuses on delivering a clean, modular, and reusable codebase that can serve as a foundation for simple graphics rendering and advanced GUI integrations.
 
 The driver supports basic pixel-level drawing, and buffer management at the moment. It is designed with portability in mind, 
 making it easier to adapt the same code structure for other platforms (such as STM32 or different MCUs) without major changes.
 
-This project represents the first stage of the SSD1306 + ESP32 integration: building a standalone driver. 
+This project represents the first stage of the SSD1306 + ESP32 integration: building a standalone driver.
 Future work includes adding LVGL support and expanding higher-level graphics functionality.
 
-Reference taken from Adafruit SSD1306 library - https://github.com/adafruit/Adafruit_SSD1306
-Platform used for firmware development is ESP-IDF on VSCode.  
+Reference taken from Adafruit SSD1306 library - https://github.com/adafruit/Adafruit_SSD1306  
+Platform used for firmware development is ESP-IDF v5.0.6 on VSCode.  
 Learn more about this series 👇👇  
   
 Part 1 👇  
